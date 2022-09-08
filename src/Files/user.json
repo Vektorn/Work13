@@ -1,0 +1,23 @@
+{
+  "id": 5,
+  "name": "Viktor The Programmer",
+  "username": "nagibator3000",
+  "email": "1Sincere@april.biz",
+  "address": {
+    "street": "Kulas Ligh",
+    "suite": "Apt. 56",
+    "city": "1Gwenborough",
+    "zipcode": "19998-3874",
+    "geo": {
+      "lat": "-17.3159",
+      "lng": "181.1496"
+    }
+  },
+  "phone": "2-770-736-8031 x56442",
+  "website": "1hildegard.org",
+  "company": {
+    "name": "1Romaguera-Crona",
+    "catchPhrase": "1Multi-layered client-server neural-net",
+    "bs": "1harness real-time e-markets"
+  }
+}
