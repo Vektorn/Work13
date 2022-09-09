@@ -1,10 +1,3 @@
-//Доповніть програму методом, що буде виводити всі коментарі до останнього поста певного користувача і записувати їх в файл.
-//
-//https://jsonplaceholder.typicode.com/users/1/posts Останнім ваажаємо пост з найбільшим id.
-//
-//https://jsonplaceholder.typicode.com/posts/10/comments
-//
-//Файл має називатись user-X-post-Y-comments.json, де Х - id користувача, Y - номер поста.
 
 import Model.Comment;
 import Model.Post;

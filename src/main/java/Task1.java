@@ -1,16 +1,3 @@
-//Програма має містити методи для реалізації наступного функціонала:
-//
-//створення нового об'єкта в https://jsonplaceholder.typicode.com/users. Можливо, ви не побачите одразу змін на сайте. Метод працює правильно, якщо у відповідь на JSON з об'єктом повернувсь такий самий JSON, але зі значенням id більшим на 1, ніж найбільший id на сайті.
-//
-//оновлення об'єкту в https://jsonplaceholder.typicode.com/users. Можливо, ви не побачите одразу змін на сайте. Вважаємо, що метод працює правильно, якщо у відповдіть ви отримаєте оновлений JSON (він має бути таким же, як ви відправили).
-//
-//видалення об'єкта з https://jsonplaceholder.typicode.com/users. Тут будемо вважати коректним результат - статус відповіді з групи 2xx (наприклад, 200).
-//
-//отримання інформації про всіх користувачів https://jsonplaceholder.typicode.com/users
-//
-//отриманні інформації про користувача по id https://jsonplaceholder.typicode.com/users/{id}
-//
-//отримання інформації про користувача по username - https://jsonplaceholder.typicode.com/users?username={username}
 
 import java.io.*;
 import java.net.HttpURLConnection;
@@ -21,7 +8,6 @@ public class Task1 {
     private static final String USER_JSON_FILE = ".\\src\\Files\\user.json";
     private static final String BASE_API_URL = "https://jsonplaceholder.typicode.com";
     private static final String USERS_API_URL = BASE_API_URL + "/users";
-
     public static void main(String[] args) throws IOException {
         sendGET();
         sendPOST();
