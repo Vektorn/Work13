@@ -1,6 +1,6 @@
 package Model;
 
-public class company {
+public class Company {
     private String name;
 
     public String getName() {

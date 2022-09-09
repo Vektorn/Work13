@@ -1,6 +1,6 @@
 package Model;
 
-public class address {
+public class Address {
     private String street;
 
     public String getStreet() {
@@ -19,12 +19,12 @@ public class address {
         this.suite = suite;
     }
 
-    public String getCiti() {
-        return citi;
+    public String getCity() {
+        return city;
     }
 
-    public void setCiti(String citi) {
-        this.citi = citi;
+    public void setCity(String city) {
+        this.city = city;
     }
 
     public String getZipcode() {
@@ -35,16 +35,16 @@ public class address {
         this.zipcode = zipcode;
     }
 
-    public Model.geo getGeo() {
+    public Geo getGeo() {
         return geo;
     }
 
-    public void setGeo(Model.geo geo) {
+    public void setGeo(Geo geo) {
         this.geo = geo;
     }
 
     private String suite;
-    private String citi;
+    private String city;
     private String zipcode;
-    private geo geo;
+    private Geo geo;
 }

@@ -1,9 +1,9 @@
 package Model;
 
 public class User {
-        private int id;
-        private String name;
-        private String username;
+    private int id;
+    private String name;
+    private String username;
 
     public int getId() {
         return id;
@@ -37,11 +37,11 @@ public class User {
         this.email = email;
     }
 
-    public Model.address getAddress() {
+    public Address getAddress() {
         return address;
     }
 
-    public void setAddress(Model.address address) {
+    public void setAddress(Address address) {
         this.address = address;
     }
 
@@ -61,17 +61,17 @@ public class User {
         this.website = website;
     }
 
-    public Model.company getCompany() {
+    public Model.Company getCompany() {
         return company;
     }
 
-    public void setCompany(Model.company company) {
+    public void setCompany(Model.Company company) {
         this.company = company;
     }
 
     private String email;
-        private address address;
-        private String phone;
-        private String website;
-        private company company;
+    private Address address;
+    private String phone;
+    private String website;
+    private Company company;
 }

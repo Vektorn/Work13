@@ -1,6 +1,6 @@
 package Model;
 
-public class geo {
+public class Geo {
     public String getLat() {
         return lat;
     }
